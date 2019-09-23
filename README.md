@@ -97,20 +97,12 @@ For any kind of support, you can raise a ticket in this portal.
 
 ## Pre Requisites
 
-Read this article carefully before installing this application. If you miss this article, you might not get the application working.
-
-You must have composer installed in your system. If you don't have knowledge about composer, [please click here](https://scotch.io/tutorials/a-beginners-guide-to-composer). Once you have installed the composer in your computer, you need to install Node.js in your system. Here is a good article to install node.js in your computer. You need to install npm globally in your system.
-
-As the application is built with Laravel 5.5, it requires to follow all the pre-requisites of Laravel 5.5. [Click here to visit installation guidelines of Laravel](https://docs.scriptmint.com).
-
 * PHP >= 7.0.0
 * OpenSSL PHP Extension
 * PDO PHP Extension
 * Mbstring PHP Extension
 * Tokenizer PHP Extension
 * XML PHP Extension
-
-[You may read detailed article to install Laravel based application here](https://docs.scriptmint.com).
 
 ## Folder & File Structure
 
