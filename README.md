@@ -108,15 +108,11 @@ For any kind of support, you can raise a ticket in this portal.
 
 The script follows conventional Laravel+Vue.js folder structure. The folders & files are grouped and placed in desired location. Here is the folder structure of Laravel application.
 
-![Laravel File Structure](https://scriptmint.com/upload/59cfd4f713738.jpg)
-
 All the folders except "node_modules" are part of Laravel application. In order to install npm dependency, you get a folder called "node_modules" in your script.
 
 I believe you already have knowledge of Laravel therefore I am not providing details of its folder structure. If you want to know more about it you can click here.
 
 Here is the detailed folder structure of resource folder where all the Vue components, assets (Images, Javascript, Stylesheets & Plugins are place).
-
-![Detail File Structure](https://scriptmint.com/upload/59cfd517e6b18.jpg)
 
 The script use only single Laravel blade file which is placed under resources/views/home.blade.php, which actually imports a layout called master.blade.php which is place at resources/views/layouts folder. This file is responsible for generating basic layout of the script. It includes bundled stylesheets in the head tag & bundled js files just above the body tags. To make less request to the server, all the stylesheets & js files are bundled into single file.
 
@@ -157,8 +153,6 @@ If you have an query regarding this folder structure, you may raise an issue her
 ## Installation Guideline
 
 After making sure that your system has all the pre-requisites, you are ready to install the application. Once you download file or clone this repo, you will get a compressed file in your computer. After extracting the compressed file, below is the file structure of the script.
-
-![File Structure](https://scriptmint.com/upload/59cfd4209a1b3.png)
 
 You might not get two folders marked in red. To get these folders in your script follow these steps:
 Open command prompt or terminal and navigate to the folder where you have extracted this script.
@@ -211,13 +205,9 @@ To get started with it, you need to have a working app in different Social Netwo
 
 Now, you need to open .env file available in the root folder and enter these details as below:
 
-![Social Login Configuration](https://scriptmint.com/upload/59cfd5f14795f.png)
-
 Make sure you follow the URL format same as give above. For example if you want to add google oAuth then the URL will be "<your_domain>/auth/google/callback".
 
 Once you put correct details here, you can now open resources/assets/js/views/auth/login.vue file & provide a link like below:
-
-![Social Login View Configuration](https://scriptmint.com/upload/59cfd5f8eb61b.jpg)
 
 Make sure you follow the URL format same as give above. For example if you want to add google oAuth then the URL will be "/auth/social/google".
 
