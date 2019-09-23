@@ -19,6 +19,25 @@
 LaravelとVuejsで開発したサンプルフレームワークは多いだと思しますが、すべての必要な機能を備えたプロジェクトはまだ公開されてないと思うので、今のプロジェクトを公開させていただきます。
 今のソースコードは以下の機能を備えたプロジェクトのでお役立つになればという思います。
 
+* Responsive layout, desktop/laptop/tablet/mobile
+* Laravel REST api
+* Single Page application (SPA)
+* JSON Authentication
+* Social oAuth
+* User Registration
+* User Activation
+* Reset Password
+* Password Change Email
+* Change Password
+* User Profile
+* User Profile Picture
+* Dashboard
+* Blank Page
+* Error Page
+* Sample Task with CRUD (Create/Read/Update/Delete)
+* Sample Todo App
+* Sample App Configuration
+
 There are many Laravel+Vue.js starter kit available but none of them are complete enough to get started. Some lacks with basic functionality like authentication, some with sample CRUD module, some with responsive layout etc. I tried to create one starter kit with some basic features like authentication, registration, user profile with a sample task module which is built on latest version of bootstrap.This script can be handy enough for your new Laravel+Vue.js project & will surely speed-up your project development time. If you are working first time on Laravel+Vue.js or learning Vue.js then this is perfect script to get started.
 
 ### This script is built with following:
