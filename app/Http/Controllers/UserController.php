@@ -131,8 +131,8 @@ class UserController extends Controller
 
     public function dashboard(){
       $users_count = \App\User::count();
-      $tasks_count = \App\Task::count();
-      $recent_incomplete_tasks = \App\Task::whereStatus(0)->orderBy('due_date','desc')->limit(5)->get();
+      $tasks_count = 0;
+      $recent_incomplete_tasks = 0;
       return response()->json(compact('users_count','tasks_count','recent_incomplete_tasks'));
     }
 }

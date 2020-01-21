@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('provider_unique_id')->nullable();
             $table->string('activation_token',64)->nullable();
             $table->string('status',25)->nullable();
+            $table->string('role')->default('shop_owner');
             $table->rememberToken();
             $table->timestamps();
         });
