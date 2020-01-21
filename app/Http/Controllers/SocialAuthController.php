@@ -36,7 +36,7 @@ class SocialAuthController extends Controller
             $new_user->activation_token = generateUuid();
             $new_user->save();
             $name = explode(' ',$user->name);
-            $profile = new \App\Model\Profile;
+            $profile = new \App\Profile;
             $profile->user()->associate($new_user);
             $profile->first_name = array_key_exists(0, $name) ? $name[0] : 'John';
             $profile->last_name = array_key_exists(1, $name) ? $name[1] : 'Doe';

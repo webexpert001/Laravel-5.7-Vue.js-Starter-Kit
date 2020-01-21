@@ -102,7 +102,7 @@ class AuthController extends Controller
 
         $user->activation_token = generateUuid();
         $user->save();
-        $profile = new \App\Model\Profile;
+        $profile = new \App\Profile;
         $profile->first_name = request('first_name');
         $profile->last_name = request('last_name');
         $user->profile()->save($profile);

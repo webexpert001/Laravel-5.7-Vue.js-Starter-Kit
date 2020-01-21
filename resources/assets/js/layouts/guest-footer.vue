@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p class="text-center"><small>Developed by G'ono</small></p>
+		<p class="text-center"><small>Developed by Takahashi</small></p>
 	</div>
 </template>
 

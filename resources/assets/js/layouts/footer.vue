@@ -1,6 +1,6 @@
 <template>
 	<footer class="footer">
-        Developed by G'ono
+        Developed by Takahashi
     </footer>
 </template>
 

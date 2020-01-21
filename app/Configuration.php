@@ -1,5 +1,5 @@
 <?php
-namespace App\Model;
+namespace App;
 use Eloquent;
 
 class Configuration extends Eloquent {

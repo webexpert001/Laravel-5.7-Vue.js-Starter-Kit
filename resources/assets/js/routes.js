@@ -27,14 +27,14 @@ let routes = [
                 path: '/profile',
                 component: require('./views/user/profile')
             },
-            // {
-            //     path: '/task',
-            //     component: require('./views/task/index')
-            // },
-            // {
-            //     path: '/task/:id/edit',
-            //     component: require('./views/task/edit')
-            // },
+            {
+                path: '/task',
+                component: require('./views/task/index')
+            },
+            {
+                path: '/task/:id/edit',
+                component: require('./views/task/edit')
+            },
             {
                 path: '/user',
                 component: require('./views/user/index')

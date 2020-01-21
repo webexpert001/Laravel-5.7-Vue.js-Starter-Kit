@@ -1,5 +1,5 @@
 <?php
-namespace App\Model;
+namespace App;
 use Eloquent;
 
 class Profile extends Eloquent {
